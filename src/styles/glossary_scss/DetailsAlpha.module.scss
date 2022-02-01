@@ -1,0 +1,41 @@
+.glossary_alphabet_details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+
+  .details_alphabet {
+    height: 48px;
+    width: 48px;
+    border-radius: 4px;
+    background-color: #0067a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    .text_alpha {
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+  }
+  .all_details {
+    display: flex;
+    flex-direction: column;
+    .single_details {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #eae9e9;
+      padding:25px 25px;
+      .title_alpha {
+        color: #0c0c0c;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+      .details_alpha {
+          font-size: .9rem;
+          color: #0c0c0c;
+      }
+    }
+  }
+}

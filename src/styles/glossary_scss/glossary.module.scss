@@ -1,0 +1,62 @@
+.glossary_page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+
+  .left_side_buttons {
+    display: flex;
+    flex-direction: row;
+    min-width: 240px;
+    max-width: 240px;
+    padding-top: 2rem;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e2e2e2;
+    height: fit-content;
+    position: sticky;
+    top: 0;
+  }
+  .right_side_details {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 3rem;
+    background-color: #fbfbfb;
+    width: 100%;
+    .title_text {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #111;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .glossary_page {
+    flex-direction: row-reverse;
+
+    .left_side_buttons {
+      display: flex;
+      flex-direction: column;
+      min-width: fit-content;
+      padding: 0 5px 0 10px;
+      position: fixed;
+      top: 2rem;
+    }
+    .right_side_details {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 2rem 1rem 1rem;
+      background-color: #fbfbfb;
+      width: 100%;
+      .title_text {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #111;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

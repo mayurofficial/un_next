@@ -1,0 +1,264 @@
+.wrapper {
+    padding: 70px;
+}
+.hero_section {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.left_container {
+    flex: 1;
+    padding: 160px 0 0 70px;
+    h1 {
+        color: #2a2a2a;
+        font-family: "Open Sans", sans-serif;
+        font-size: 36px;
+        font-weight: 800;
+        letter-spacing: 0.3px;
+        line-height: 49px;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+    p {
+        width: 513px;
+        color: #0c0c0c;
+        font-family: Open Sans;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 30px;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+}
+.right_container {
+    flex: 1;
+}
+.hero_bg {
+    height: 100%;
+    vertical-align: middle;
+    border-style: none;
+    min-height: 700px;
+}
+.parent_tab {
+    color: #0c0c0c;
+    padding: 18px 50px 18px 18px !important;
+    font-size: 20px;
+    min-width: max-content;
+    width: auto;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 27px;
+    padding-right: 34px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    &:focus,
+    :target {
+        background-color: #0067a5;
+        clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+        padding: 10px;
+        padding: 12px;
+        font-size: 20px;
+        min-width: max-content;
+        font-family: Open Sans;
+        font-weight: 600;
+        line-height: 27px;
+        padding-right: 34px;
+        letter-spacing: 0;
+        text-transform: capitalize;
+        color: #fff;
+    }
+}
+.defaultCss {
+    background-color: #0067a5 !important;
+    clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+    padding: 18px 50px 18px 18px !important;
+    padding: 12px;
+    font-size: 20px;
+    min-width: max-content;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 27px;
+    padding-right: 34px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    color: #fff !important;
+}
+.tab_card_wrapper {
+    box-shadow: 0 0 18px 0 rgb(0 0 0 / 7%);
+    height: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
+    p {
+        color: #080808;
+        font-family: Open Sans;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 26px;
+    }
+    h3{
+        color: #0c0c0c;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 24px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+}
+.tab_pannel {
+    padding: 0 !important;
+    margin: 40px 0px !important;
+}
+.inner_tab_pannel {
+    color: #0c0c0c;
+    padding: 16px 25px;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
+.card_left_container {
+    flex: 1.3 1;
+    padding-right: 70px;
+}
+.card_right_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 2 1;
+    h3 {
+        margin-top: 0;
+    }
+}
+.data_wrapper {
+    h2 {
+        color: #0c0c0c;
+        font-family: Open Sans;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 43px;
+        margin: 0;
+    }
+    h3 {
+        padding: 60px 0px 20px 0px;
+    }
+    p {
+        color: #080808;
+        font-family: Open Sans;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 26px;
+    }
+}
+.data_container {
+    display: flex;
+}
+.data_left_container {
+    flex: 2;
+}
+.data_right_container {
+    flex: 1;
+}
+.mobile_wrapper {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mobile_wrapper {
+        height: 100px !important;
+        display: block;
+        h2 {
+            font-size: 16px;
+            margin-top: 0;
+        }
+        .imageWrapper {
+            height: 200px;
+        }
+        .mobile_herosection {
+            position: absolute;
+            top: 104px;
+            padding: 0 13px;
+        }
+        .hero_card_wrapper {
+            border: 1px solid #eef3f8;
+            border-radius: 12px;
+            background-color: #fff;
+            margin: 40px 5px;
+            padding: 15px;
+            p,
+            a {
+                font-size: 14px;
+                line-height: 21px;
+            }
+            h1 {
+                font-size: 16px;
+                margin-top: 0;
+            }
+            a {
+                font-weight: bold;
+                color: #0067a5;
+            }
+        }
+        .sub_hero_section {
+            padding: 20px 15px 13px;
+            background-color: #fbfbfb;
+            padding-top: 150px;
+        }
+        .mobile_card_container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .mobile_card_wrapper {
+            height: 140px;
+            width: 48%;
+            border: 1px solid #eef3f8;
+            border-radius: 12px;
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+            .logo {
+                height: 43px;
+                width: 43px;
+                border-radius: 8px;
+                background-color: #0067a5;
+                margin-bottom: 15px;
+                display: -moz-box;
+                display: flex;
+                -moz-box-pack: center;
+                justify-content: center;
+                align-items: center;
+            }
+            h3 {
+                color: #0c0c0c;
+                font-family: Open Sans;
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 0;
+                line-height: 19px;
+                padding-bottom: 15px;
+                margin: 0;
+            }
+            p {
+                color: #777776;
+                font-family: Open Sans;
+                font-size: 12px;
+                letter-spacing: 0;
+                line-height: 17px;
+                margin: 0;
+            }
+        }
+    }
+    .hero_section {
+        display: none;
+    }
+    .wrapper {
+        display: none;
+    }
+}

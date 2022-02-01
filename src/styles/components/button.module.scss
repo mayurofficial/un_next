@@ -1,0 +1,26 @@
+.button{
+    font-family: 'Open Sans', sans-serif;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.button_icon{
+    display: flex;
+    align-self: center;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+.card_button{
+    background-color: transparent !important;
+    color: #0067a5;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: start;
+}
+.small_button_icon{
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
